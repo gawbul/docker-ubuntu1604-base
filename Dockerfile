@@ -6,7 +6,7 @@ RUN \
   apt-get install -y build-essential && \
   apt-get install -y software-properties-common && \
   apt-get install -y autoconf automake byobu bzip2 curl gfortran git htop lzma man sudo unzip vim wget && \
-  apt-get install -y lbzip2 libbz2-dev liblzma5 liblzma-dev libncurses5 libncurses5-dev \
+  apt-get install -y lbzip2 libbz2-dev liblzma5 liblzma-dev libncurses5 libncurses5-dev libpcre3 \
     libreadline6 libreadline6-dev zlib1g-dev && \
   add-apt-repository ppa:webupd8team/java -y && \
   apt-get update && \
